@@ -38,9 +38,16 @@ Place your input text in assignment.txt.
 
 Run the script:
 
-Bash
+### Execution
+
+1. Place your input text in `assignment.txt`.
+2. Run the script:
+
+```bash
 python bypass.py
-View the generated obfuscated text in clean_assignment.txt.
+```
+
+3. View the generated obfuscated text in `clean_assignment.txt`.
 
 🔍 Why Legacy Systems Get Bypassed
 Tokenizer Disruption: Traditional NLP pipelines segment words by splitting on standard whitespace (\s). Injected characters cause words to register as massive, unrecognized strings.
